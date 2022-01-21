@@ -1,11 +1,15 @@
 {
   "name": "xunyou-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Automatic packaging tool",
   "main": "index.js",
   "bin": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/zz8023wanjin/xy-cli.git"
   },
   "author": "yx",
   "license": "ISC",
