@@ -1,0 +1,28 @@
+{
+  "name": "xy-cli",
+  "version": "1.0.5",
+  "description": "Automatic packaging tool",
+  "main": "index.js",
+  "bin": {
+    "xy-cli": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zz8023wanjin/xy-cli.git"
+  },
+  "author": "yx",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "commander": "^9.3.0",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.4",
+    "webpack": "^5.72.1",
+    "webpack-dev-server": "^4.9.1"
+  }
+}
